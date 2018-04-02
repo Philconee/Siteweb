@@ -24,7 +24,7 @@
   jQuery('.textbox input').attr('onkeyup', "this.setAttribute('value', this.value);")
 
   /* Décompte */
-  var deadline = 'Jul 25 2018 18:40:18 GMT-0400';
+  var deadline = 'May 5 2018 18:40:18 GMT-0400';
 
   function time_remaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
