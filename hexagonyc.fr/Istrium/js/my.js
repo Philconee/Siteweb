@@ -2,7 +2,7 @@
   "use strict"; // Start of use strict
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS.load('particles-js', 'http://hexagonyc.fr/Istrium/particlesjs-config.json', function () {
+  particlesJS.load('particles-js', 'http://127.0.0.1/hexagonyc.fr/Istrium/particlesjs-config.json', function () {
     console.log('callback - particles.js config loaded');
   });
 
