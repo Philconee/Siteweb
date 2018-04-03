@@ -1,4 +1,6 @@
+@media (min-width: 760px) { 
 .timeline {
+   display: none;
     list-style: none;
     margin: 25px 0 22px;
     padding: 0;
@@ -8,6 +10,7 @@
     box-sizing: border-box;
 }
 
+}
 .timeline-milestone {
     min-height: 13vw;
     border-left: 3px solid #00637d;

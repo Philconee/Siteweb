@@ -1,4 +1,8 @@
 @media (max-width: 760px) {
+
+   .roadmap h5.title2 {
+   display: none;
+   }
     .textbox input[type="email"] {
         width: 100%;
         padding: 8px 4px 6px 4px;
@@ -40,6 +44,16 @@
 /* Small Responsive */
 
 @media (min-width: 0px) {
+
+.timeline {
+    list-style: none;
+    margin: 25px 0 22px;
+    padding: 0;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
     .social-icons {
         display: none;
     }
@@ -168,9 +182,14 @@
         font-size: 4vw;
     }
     .roadmap h5.title {
+      margin-top: 2%;
+        font-size: 15vw;
+    }
+       .roadmap h5.title2 {
         font-size: 15vw;
         margin: 10% 0 0% 0;
     }
+    
     .faq h6 {
         font-size: 15vw;
     }
@@ -198,6 +217,7 @@
 /* Medium Responsive */
 
 @media (min-width: 768px) {
+
     .feature:hover {
         -webkit-box-shadow: 13px 11px 120px -14px rgba(0, 0, 0, 0.15);
         -moz-box-shadow: 13px 11px 120px -14px rgba(0, 0, 0, 0.15);
@@ -273,8 +293,13 @@
         margin: 0% 0 0% 0;
     }
     .roadmap h5.title {
+      margin-bottom: 75%;
         font-size: 7vw;
-        margin: 0% 0 0% 0;
+    }
+    .roadmap h5.title2 {
+        margin-bottom: 75%; 
+        margin-top: 2%;
+        font-size: 7vw;
     }
     .timeline-action .content {
         font-size: 10px;
@@ -441,6 +466,11 @@
         margin: 0% 0 0% 0;
     }
     .roadmap h5.title {
+         margin-bottom: 75%; 
+         margin-top: 2%;
+         font-size: 7vw;
+    }
+    .roadmap h5.title2 {
         font-size: 7vw;
         margin: -1% 0 0 0;
     }
@@ -666,6 +696,11 @@
         font-size: 1vw;
     }
     .roadmap h5.title {
+    margin-bottom: 75%; 
+    margin-top: 2%;
+    font-size: 7vw;
+    }
+    .roadmap h5.title2 {
         font-size: 7vw;
         margin: 10% 0 0% 0;
     }
