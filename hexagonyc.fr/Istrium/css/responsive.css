@@ -7,6 +7,10 @@
       margin-top: 2%;
         font-size: 15vw;
     }
+    .section2 {
+    margin: 5% 0 5% 0!important;
+    padding-bottom: 0%;
+}
     .textbox input[type="email"] {
         width: 100%;
         padding: 8px 4px 6px 4px;
