@@ -3,6 +3,10 @@
    .roadmap h5.title2 {
    display: none;
    }
+     .roadmap h5.title {
+      margin-top: 2%;
+        font-size: 15vw;
+    }
     .textbox input[type="email"] {
         width: 100%;
         padding: 8px 4px 6px 4px;
@@ -293,6 +297,7 @@
         margin: 0% 0 0% 0;
     }
     .roadmap h5.title {
+    display: none;
       margin-bottom: 75%;
         font-size: 7vw;
     }
@@ -336,6 +341,10 @@
     }
     .social-icons {
         display: block;
+    }
+        .section2 div {
+        margin: 0;
+        margin-bottom: 130%;
     }
     .section2 {
         margin: 0% 0 5% 0;
@@ -466,6 +475,7 @@
         margin: 0% 0 0% 0;
     }
     .roadmap h5.title {
+      display: none;
          margin-bottom: 75%; 
          margin-top: 2%;
          font-size: 7vw;
@@ -507,6 +517,11 @@
     .social-icons {
         display: block;
     }
+   .section2 div {
+        margin: 0;
+        margin-bottom: 130%;
+    }
+    
     .section2 {
         margin: 0% 0 5% 0;
     }
@@ -691,11 +706,13 @@
     }
     .section2 div {
         margin: 0;
+        margin-bottom: 130%;
     }
     .section2 div h6 {
         font-size: 1vw;
     }
     .roadmap h5.title {
+    display: none;
     margin-bottom: 75%; 
     margin-top: 2%;
     font-size: 7vw;
