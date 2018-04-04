@@ -78,8 +78,6 @@
 }
 
 .progress-step.is-active .progress-title {
-  font-weight: 200 !important;
-  font-size: 1vw;
   color: #5ac0fa;
   opacity: .8;
 }
@@ -130,6 +128,7 @@
 }
 
 .progress-title {
+font-size:.7vw;
   margin-top: 0;
 }
 
