@@ -2,16 +2,17 @@
   "use strict"; // Start of use strict
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS.load('particles-js', 'http://hexagonyc.fr/Istrium/particlesjs-config.json', function () {
+  particlesJS.load('particles-js', 'particlesjs-config.json', function () {
     console.log('callback - particles.js config loaded');
   });
 
+  /* My particles effect is better that of my client  */
   var yolo = false;
   document.getElementById("yolo").onclick = function () {
     yolo = !yolo;
     document.getElementById('particles-js').innerHTML = "";
     if (yolo)
-      particlesJS.load('particles-js', '127.0.0.1/particlesjs-config.json', function () {
+      particlesJS.load('particles-js', '127.0.0.1/myparticlesjs-config.json', function () {
         console.log('callback - particles.js config loaded');
       });
     else
@@ -20,10 +21,7 @@
       });
   };
 
-  jQuery('.textbox input').attr('value', "")
-  jQuery('.textbox input').attr('onkeyup', "this.setAttribute('value', this.value);")
-
-  /* Décompte */
+  /* Countdown */
   var deadline = 'Jul 25 2018 18:40:18 GMT-0400';
 
   function time_remaining(endtime) {
@@ -68,6 +66,7 @@
   run_clock(deadline);
 
 
+  // FAQ beautiful border effect
   jQuery('[data-toggle="collapse"]').click(function (e) {
     var this_ = $(this);
     jQuery('.card.active').attr('class', 'card');
@@ -87,26 +86,25 @@
       }
     }
   });
-
-  // Closes responsive menu when a scroll trigger link is clicked
-  jQuery('.js-scroll-trigger').click(function () {
-    jQuery('.navbar-collapse').collapse('hide');
-  });
-
+  // Hide popover of buy bouton when scroll
   jQuery(window).scroll(function () {
     jQuery('[data-toggle="popover"]').popover('hide');
   });
 
-  //popover
+  // Active Popover if not mobile
   jQuery(function () {
     jQuery('[data-toggle="popover"]').popover();
     if (document.body.offsetWidth > 992)
       jQuery('[data-toggle="popover"]').popover('toggle');
-      else 
-        jQuery('[data-toggle="tooltip"]').tooltip();
+    else
+      jQuery('[data-toggle="tooltip"]').tooltip();
   });
 
-  //FORM
+  // Get whitelisted input
+  jQuery('.textbox input').attr('value', "");
+  jQuery('.textbox input').attr('onkeyup', "this.setAttribute('value', this.value);");
+
+  // Get whitelisted form
   jQuery("form").on("submit", function (e) {
     e.preventDefault();
     var form = $(this);
