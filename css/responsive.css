@@ -1,0 +1,757 @@
+@media (max-width: 760px) {
+
+   .roadmap h5.title2 {
+   display: none;
+   }
+     .roadmap h5.title {
+      margin-top: 2%;
+        font-size: 15vw;
+    }
+    .section2 {
+    margin: 5% 0 5% 0!important;
+    padding-bottom: 0%;
+}
+    .textbox input[type="email"] {
+        width: 100%;
+        padding: 8px 4px 6px 4px;
+        font-size: 1vw;
+        background: rgba(255, 255, 255, 0);
+        color: black;
+        border-bottom: 1.5px solid black;
+    }
+    .textbox input[type="email"]~label {
+        font-size: 4vw;
+        color: black;
+        left: 12px;
+        top: 32px;
+        margin-right: 12px;
+    }
+    .textbox input[type="email"] {
+        width: 100%;
+        font-size: 5vw;
+        background: rgba(255, 255, 255, 0);
+        color: black;
+        border-bottom: 1.5px solid black;
+    }
+    .textbox input[type="email"]~.button_send {
+        top: 20px;
+        color: black;
+        font-size: 6.5vw;
+    }
+    .textbox {
+        width: 100%;
+    }
+    .sent_message {
+        color: black;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* Small Responsive */
+
+@media (min-width: 0px) {
+
+.timeline {
+    list-style: none;
+    margin: 25px 0 22px;
+    padding: 0;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+    .social-icons {
+        display: none;
+    }
+    .team .card:hover .avatar {
+        padding: 0 10px;
+    }
+    .team .card .bio p {
+        overflow: scroll;
+        max-height: 40vw;
+    }
+    .faq .card-header {
+        padding: .75rem 1.25rem;
+    }
+    .diagram h6 {
+        font-size: 5vw;
+        color: black;
+    }
+    .diagram h5 {
+        font-size: 5vw;
+        text-align: center;
+        color: black;
+    }
+    .diagram h6 span {
+        font-size: 5vw;
+        color: black;
+    }
+    .diagram h6 span.grey {
+        font-size: 5vw;
+        color: black;
+    }
+    .btn-red {
+        font-weight: 300 !important;
+    }
+    h6 blockquote {
+        transform: translate(0);
+    }
+    .team .card .name h5 {
+        font-size: 3.5vw;
+    }
+    .team .card .name h6 {
+        font-size: 2.9vw;
+    }
+    .team .card .bio p {
+        font-size: 2.5vw;
+    }
+    .team .card:hover .name h5 {
+        font-size: 3vw;
+    }
+    .team .card:hover .name h6 {
+        font-size: 2vw;
+    }
+    #carouselTeam {
+        padding: 2% 0 4% 0;
+    }
+    .team .carousel-item .card {
+        height: 65vw;
+    }
+    .slogan h5 {
+        font-size: 20vw;
+        margin: -5% 0 0 0;
+    }
+    .feature:hover {
+        box-shadow: none;
+    }
+    .header h5 {
+        text-align: center;
+    }
+    .cd-headline {
+        text-align: center;
+    }
+    .header .bouton {
+        margin: 20% 0;
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+    }
+    .presale h6 {
+        font-size: 5vw;
+    }
+    header .card-body {
+        padding: 0 !important;
+    }
+    .cd-words-wrapper b {
+        font-size: 7vw;
+        font-weight: 100;
+    }
+    .presale h5 span {
+        font-size: 12vw;
+    }
+    .presale h5 {
+        font-size: 4vw;
+    }
+    .incredible h5 {
+        font-size: 15vw;
+    }
+    .incredible h6 {
+        font-size: 4vw;
+    }
+    .team .page h5 {
+        font-size: 15vw;
+        text-align: center;
+    }
+    .team .page h6 {
+        font-size: 4vw;
+        text-align: center;
+        width: 100%;
+    }
+    .team .carousel-item .card {
+        box-shadow: none;
+        border: 1px solid rgba(128, 128, 128, 0.2);
+    }
+    .section h5 {
+        font-size: 5vw;
+    }
+    .team .btn {
+        height: 16.5vw;
+        font-size: 5vw;
+    }
+    .section h6 {
+        font-size: 4vw;
+    }
+    .section2 div {
+        margin: 0;
+    }
+    .section2 div h6 {
+        font-size: 4vw;
+    }
+    .roadmap h5.title {
+      margin-top: 2%;
+        font-size: 15vw;
+    }
+       .roadmap h5.title2 {
+        font-size: 15vw;
+        margin: 10% 0 0% 0;
+    }
+    
+    .faq h6 {
+        font-size: 15vw;
+    }
+    .faq .card-body {
+        font-size: 4vw;
+    }
+    .why {
+        margin: 10% 0 0% 0;
+    }
+    .diagram {
+        margin: 0% 0 20% 0;
+    }
+    .why h5 {
+        font-size: 10vw;
+        text-align: center;
+    }
+    .why h6 {
+        font-size: 4vw;
+    }
+    .philosophy h6 {
+        font-size: 4vw;
+    }
+}
+
+/* Medium Responsive */
+
+@media (min-width: 768px) {
+
+    .feature:hover {
+        -webkit-box-shadow: 13px 11px 120px -14px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 13px 11px 120px -14px rgba(0, 0, 0, 0.15);
+        box-shadow: 13px 11px 120px -14px rgba(0, 0, 0, 0.15);
+    }
+    .progress-tracker {
+        margin: 23% auto -5% auto;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .presale h6 {
+        font-size: 2vw;
+    }
+    .presale h5 span {
+        font-size: 5vw;
+    }
+    .presale h5 {
+        font-size: 1vw;
+    }
+    .header h5 {
+        text-align: left;
+    }
+    .slogan h5 {
+        font-size: 10vw;
+    }
+    .cd-headline {
+        text-align: left;
+    }
+    .cd-words-wrapper b {
+        font-size: 3vw;
+    }
+    .header .bouton {
+        margin: 5% 0;
+        -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+        justify-content: left !important;
+    }
+    .feature-ico {
+        padding: 20% 40% 20% 40%;
+        margin: auto;
+    }
+    .header .bouton .btn {
+        font-size: 1.5vw;
+    }
+    .whitelisted h5 {
+        font-size: 1.5vw;
+        width: 70%;
+    }
+    .whitelisted {
+        margin-top: 10%;
+    }
+    .incredible h5 {
+        font-size: 7vw;
+    }
+    .incredible h6 {
+        font-size: 1.3vw;
+    }
+    .section h5 {
+        font-size: 2vw;
+    }
+    .section h6 {
+        font-size: 1.5vw;
+    }
+    .section2 div h6 {
+        font-size: 1.5vw;
+    }
+    .incredible {
+        margin: 15% 0 2% 0;
+    }
+    .section {
+        margin: 0% 0 0% 0;
+    }
+    .roadmap h5.title {
+    display: none;
+      margin-bottom: 75%;
+        font-size: 7vw;
+    }
+    .roadmap h5.title2 {
+        margin-bottom: 75%; 
+        margin-top: 2%;
+        font-size: 7vw;
+    }
+    .timeline-action .content {
+        font-size: 10px;
+    }
+    .diagram h5 {
+        font-size: 2vw;
+        color: white;
+        margin-bottom: -22%;
+    }
+    .diagram h6 {
+        font-size: 1.5vw;
+        color: white;
+    }
+    .diagram h6 span {
+        color: white;
+        font-size: 1.5vw;
+    }
+    .diagram h6 span.grey {
+        color: white;
+        font-size: 1.5vw;
+    }
+    .diagram {
+        margin: 3% 0 3% 0;
+    }
+    .team .card:hover .name h5 {
+        font-size: 1vw;
+    }
+    .team .card:hover .name h6 {
+        font-size: 1vw;
+    }
+    .team .card .bio p {
+        font-size: 1vw;
+        max-height: 12vw;
+    }
+    .social-icons {
+        display: block;
+    }
+        .section2 div {
+        margin: 0;
+    }
+    .section2 {
+        margin: 0% 0 5% 0;
+    }
+    .philosophy {
+        margin: 0% 0 5% 0;
+    }
+    .team .page h5 {
+        font-size: 7vw;
+        text-align: left;
+    }
+    .faq h6 {
+        font-size: 7vw;
+    }
+    .faq .card-body {
+        font-size: 1.5vw;
+    }
+    .team .btn {
+        height: 5vw;
+        font-size: 2vw;
+    }
+    .footer {
+        margin: 0% 0px;
+    }
+    .footer .bloc {
+        padding: 5% 5% 5% 5%;
+    }
+    .team {
+        margin: 0% 0 10% 0;
+    }
+    .faq {
+        padding-bottom: 10%;
+    }
+    .team .page h6 {
+        font-size: 1vw;
+        text-align: left;
+    }
+    .team .card .name h5 {
+        font-size: 1vw;
+    }
+    .team .card .name h6 {
+        font-size: 1vw;
+    }
+    #carouselTeam {
+        padding: 4%;
+    }
+    .team .carousel-item .card {
+        height: 26vw;
+        -webkit-box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+        box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+    }
+}
+
+/* Large Responsive */
+
+@media (min-width: 992px) {
+    #carouselTeam {
+        padding: 4%;
+    }
+    .faq {
+        padding-bottom: 15%;
+    }
+    .feature-ico {
+        padding: 35% 40% 20% 40%;
+        margin: auto;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .presale h6 {
+        font-size: 2vw;
+    }
+    .presale h5 span {
+        font-size: 5vw;
+    }
+    .presale h5 {
+        font-size: 1vw;
+    }
+    .header h5 {
+        text-align: left;
+    }
+    .slogan h5 {
+        font-size: 10vw;
+    }
+    .cd-headline {
+        text-align: left;
+    }
+    .cd-words-wrapper b {
+        font-size: 3vw;
+    }
+    .header .bouton {
+        margin: 5% 0;
+        -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+        justify-content: left !important;
+    }
+    .header .bouton .btn {
+        font-size: 1.5vw;
+    }
+    .whitelisted h5 {
+        font-size: 1.5vw;
+        width: 70%;
+    }
+    .whitelisted {
+        margin-top: 10%;
+    }
+    .incredible h5 {
+        font-size: 7vw;
+    }
+    .incredible h6 {
+        font-size: 1.3vw;
+    }
+    .section h5 {
+        font-size: 2vw;
+    }
+    .section h6 {
+        font-size: 1.5vw;
+    }
+    .section2 div h6 {
+        font-size: 1.5vw;
+    }
+    .incredible {
+        margin: 15% 0 2% 0;
+    }
+    .section {
+        margin: 0% 0 0% 0;
+    }
+    .roadmap h5.title {
+      display: none;
+         margin-bottom: 75%; 
+         margin-top: 2%;
+         font-size: 7vw;
+    }
+    .roadmap h5.title2 {
+        font-size: 7vw;
+        margin: -1% 0 0 0;
+    }
+    .diagram h5 {
+        font-size: 2vw;
+        margin-bottom: 0;
+        color: white;
+    }
+    .diagram h6 {
+        font-size: 1.5vw;
+        color: white;
+    }
+    .diagram h6 span {
+        font-size: 1.5vw;
+        color: white;
+    }
+    .diagram h6 span.grey {
+        font-size: 1.5vw;
+        color: white;
+    }
+    .diagram {
+        margin: 5% 0 9% 0;
+    }
+    .team .card:hover .name h5 {
+        font-size: 1vw;
+    }
+    .team .card:hover .name h6 {
+        font-size: 1vw;
+    }
+    .team .card .bio p {
+        font-size: 1vw;
+        max-height: 12vw;
+    }
+    .social-icons {
+        display: block;
+    }
+   .section2 div {
+        margin: 0;
+    }
+    
+    .section2 {
+        margin: 0% 0 5% 0;
+    }
+    .philosophy {
+        margin: 5% 0;
+    }
+    .team .page h5 {
+        font-size: 7vw;
+        text-align: left;
+    }
+    .faq h6 {
+        font-size: 7vw;
+    }
+    .faq .card-body {
+        font-size: 1.5vw;
+    }
+    .team .btn {
+        height: 5vw;
+        font-size: 2vw;
+    }
+    .footer {
+        margin: 0% 0px;
+    }
+    .team {
+        margin: 0% 0 20% 0;
+    }
+    .team .page h6 {
+        font-size: 1.5vw;
+        text-align: left;
+    }
+    .team .card .name h5 {
+        font-size: 1.5vw;
+    }
+    .team .card .name h6 {
+        font-size: 1vw;
+    }
+    .team .carousel-item .card {
+        height: 26vw;
+        border-width: 0;
+        border-radius: 0.5rem;
+        -webkit-box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+        box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+    }
+}
+
+/* Extra large Responsive */
+
+@media (min-width: 1200px) {
+    #carouselTeam {
+        padding: 4%;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .cd-headline {
+        text-align: left;
+    }
+    .header h5 {
+        text-align: left;
+    }
+    .textbox.blue input[type="email"]~.button_send {
+        width: 32px;
+        height: 32px;
+    }
+    .team .card:hover .avatar {
+        padding: 0 10px;
+    }
+    .team .card .bio p {
+        overflow: scroll;
+        max-height: 13vw;
+        font-size: 1vw;
+    }
+    .faq .card-header {
+        padding: .75rem 1.25rem;
+    }
+    .diagram h6 {
+        font-size: 1vw;
+    }
+    .diagram h5 {
+        font-size: 2vw;
+    }
+    .diagram h6 span {
+        font-size: 1vw;
+    }
+    .diagram h6 span.grey {
+        font-size: 1vw;
+    }
+    .btn-red {
+        font-weight: 300 !important;
+    }
+    h6 blockquote {
+        transform: translate(0);
+    }
+    .team .card .name h5 {
+        font-size: 1.5vw;
+    }
+    .team .card .name h6 {
+        font-size: 1vw;
+    }
+    .team .card:hover .name h5 {
+        font-size: 1vw;
+    }
+    .team .card:hover .name h6 {
+        font-size: 1vw;
+    }
+    .team .carousel-item .card {
+        height: 27vw;
+    }
+    .slogan h5 {
+        font-size: 10vw;
+    }
+    .incredible {
+        margin: 20% 0 2% 0;
+    }
+    .whitelisted h5 {
+        font-size: 1.5vw;
+        width: 70%;
+        margin: 0;
+    }
+    .progress-tracker {
+        margin: 20% auto -3% auto;
+    }
+    .header .bouton {
+        margin: 5% 0;
+        -webkit-box-pack: left !important;
+        -ms-flex-pack: left !important;
+        justify-content: left !important;
+    }
+    .presale h6 {
+        font-size: 2vw;
+    }
+    header .card-body {
+        padding: 0 !important;
+    }
+    .cd-words-wrapper b {
+        font-size: 3vw;
+        font-weight: 100;
+    }
+    .presale h5 span {
+        font-size: 5vw;
+    }
+    .presale h5 {
+        font-size: 1vw;
+    }
+    .incredible h5 {
+        font-size: 7vw;
+    }
+    .incredible h6 {
+        font-size: 1vw;
+    }
+    .team .page h5 {
+        font-size: 7vw;
+        text-align: left;
+    }
+    .team .page h6 {
+        font-size: 1.5vw;
+        text-align: left;
+        width: 100%;
+    }
+    .team {
+        margin: 10% 0 20% 0;
+    }
+    .team .carousel-item .card {
+        -webkit-box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+        box-shadow: 5px 4px 20px 6px rgba(0, 0, 0, 0.05);
+    }
+    .section2 {
+        margin: 5% 0 5% 0;
+    }
+    .section h5 {
+        font-size: 2vw;
+    }
+    .team .btn {
+        height: 5vw;
+        font-size: 2vw;
+    }
+    .section h6 {
+        font-size: 1.5vw;
+    }
+    .section2 div {
+        margin: 0;
+
+    }
+    .section2 div h6 {
+        font-size: 1vw;
+    }
+    .roadmap h5.title {
+    display: none;
+    margin-bottom: 75%; 
+    margin-top: 2%;
+    font-size: 7vw;
+    }
+    .roadmap h5.title2 {
+        font-size: 7vw;
+        margin: 10% 0 0% 0;
+    }
+    .faq h6 {
+        font-size: 7vw;
+    }
+    .faq .card-body {
+        font-size: 1vw;
+    }
+    .diagram {
+        margin: 7% 0 0% 0;
+    }
+    .philosophy h6 {
+        font-size: 3.5vw;
+    }
+    .footer {
+        margin: 0;
+    }
+    .philosophy {
+        margin: 19% 0 0 0;
+    }
+    .timeline-action .content {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1900px) {
+    .diagram {
+        margin: 10% 0 0% 0;
+    }
+    .philosophy {
+        margin: 21% 0 0 0;
+    }
+}

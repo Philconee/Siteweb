@@ -1,0 +1,117 @@
+@media (min-width: 760px) { 
+.timeline {
+   display: none;
+    list-style: none;
+    margin: 25px 0 22px;
+    padding: 0;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+}
+.timeline-milestone {
+    min-height: 13vw;
+    border-left: 3px solid #00637d;
+    margin: 0 0 0 20px;
+    padding: 0 0 5px 25px;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.timeline-milestone.is-completed {
+    border-color: #5AC0FA;
+}
+
+.timeline-milestone.is-future,
+.timeline-milestone.is-current {
+    border-color: #E0F6FF;
+}
+
+.timeline-milestone:before {
+    border: 6px solid #F5FCFF;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    position: absolute;
+    left: -12px;
+    width: 22px;
+    height: 22px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.timeline-milestone.is-completed:before {
+    background-color: #5AC0FA;
+    border: 6px solid #E0F6FF;
+}
+
+.timeline-milestone.is-future:before,
+.timeline-milestone.is-current:before {
+    background-color: #CDECFD;
+}
+
+.timeline-milestone.is-current:after {
+    top: 12px;
+    background-color: #5AC0FA;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    position: absolute;
+    left: -5.5px;
+    width: 8px;
+    height: 8px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.timeline-milestone.is-current:before {
+    background-color: #E0F6FF;
+    width: 32px;
+    height: 32px;
+    left: -17.5px;
+    border: 3px solid #5AC0FA;
+}
+
+.timeline-action {
+    padding: 12px 10px 12px 20px;
+    position: relative;
+    top: -15px;
+}
+
+.timeline-action .title,
+.timeline-action .content {
+    word-wrap: break-word;
+}
+
+.timeline-milestone .content {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.timeline-action .title {
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 18px;
+    margin-top: .3rem;
+}
+
+.timeline-action .content {
+    font-size: 14px;
+}
+
+.file-list {
+    line-height: 1.4;
+    list-style: none;
+    padding-left: 10px;
+}
+
+a[href*=".pdf"]:before {
+    content: "\f0f6";
+    display: inline-block;
+    font-family: "FontAwesome";
+    margin-right: 8px;
+}
