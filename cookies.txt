@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-.canvasjs.com	TRUE	/	FALSE	1999999999	__cfduid	d379c6e04f05bc75208abb4ce3262aa7e1522492468
-
